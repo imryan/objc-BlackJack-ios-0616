@@ -133,7 +133,7 @@ describe(@"FISBlackjackGame", ^{
             expect(defaultGame.house.cardsInHand.count).to.equal(0);
         });
         
-        it(@"should not deal to the house if the hosue has stayed", ^{
+        it(@"should not deal to the house if the house has stayed", ^{
             defaultGame.house.stayed = YES;
             [defaultGame processHouseTurn];
             
